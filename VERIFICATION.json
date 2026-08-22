@@ -1,0 +1,27 @@
+{
+  "schema_version": "lossy-source-digest-utility-final-verification-v0",
+  "passed": true,
+  "source_lock_sha256": "d85900b29dcf0ae3de5d503328ffb81bffb107be9dad01ab9b4b25afdfd2f04d",
+  "run_id": "2026-08-21-sealed-lossy-digest-utility-s314159-v0",
+  "run_seal": {
+    "passed": true,
+    "file_count": 27,
+    "file_manifest_sha256": "26723e237d781a60d1c7780f8de408b88df7bccb528116ab242987b10d94d709",
+    "total_bytes": 1414830
+  },
+  "replay": {
+    "passed": true,
+    "calls_replayed": 2,
+    "failures": []
+  },
+  "tests": {
+    "passed": true,
+    "count": 8
+  },
+  "runtime_lifecycle": {
+    "passed": true,
+    "server_stopped": true,
+    "port_closed": true,
+    "gpu_memory_returned": true
+  }
+}
