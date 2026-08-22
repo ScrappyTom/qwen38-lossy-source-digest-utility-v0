@@ -53,8 +53,8 @@ descriptive.
 | Target-source raw recovery | 8,063 bytes |
 | Total raw source bytes recovered | 13,362 bytes |
 
-No avoided source delivery, mutation, artifact improvement, or other useful
-downstream effect repaid these costs inside the measured horizon.
+No raw exact recovery was avoided, and no mutation, artifact improvement, or
+other useful downstream effect repaid these costs inside the measured horizon.
 
 ## Known-loss audit
 
