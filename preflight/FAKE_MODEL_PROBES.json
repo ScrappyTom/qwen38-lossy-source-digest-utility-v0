@@ -1,0 +1,1 @@
+{"passed":true,"probes":{"digest_message_survives_projection_pair_scan":true,"exact_region_read":true,"exact_source_read":true,"mutation":true,"submission":true},"schema_version":"lossy-source-digest-fake-model-probes-v0"}

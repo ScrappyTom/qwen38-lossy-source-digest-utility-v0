@@ -1,0 +1,10 @@
+{
+  "schema_version": "measured-inference-authorization-v0",
+  "study_id": "qwen38-lossy-source-digest-utility-v0",
+  "approved": true,
+  "source_lock_sha256": "d85900b29dcf0ae3de5d503328ffb81bffb107be9dad01ab9b4b25afdfd2f04d",
+  "maximum_model_calls": 3,
+  "retries": 0,
+  "approval_statement": "User authorized GPU use and directed the frozen experiment to proceed in the active Codex task on 2026-08-21.",
+  "authorization_scope": "One seed-314159 lossy-digest treatment cell with the predeclared conditional three-call ceiling."
+}

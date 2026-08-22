@@ -1,0 +1,13 @@
+{
+  "schema_version": "lossy-source-digest-frozen-forecast-v0",
+  "frozen_before_outcomes": true,
+  "probabilities_percent": [
+    {"outcome": "immediate_same_source_raw_access", "probability": 35},
+    {"outcome": "different_first_acquisition_then_delayed_same_source_access", "probability": 25},
+    {"outcome": "different_acquisition_no_same_source_access_no_mutation_within_horizon", "probability": 20},
+    {"outcome": "substantive_action_without_material_semantic_error", "probability": 10},
+    {"outcome": "semantic_misuse_or_quality_degradation", "probability": 5},
+    {"outcome": "capacity_control_or_apparatus_endpoint", "probability": 5}
+  ]
+}
+

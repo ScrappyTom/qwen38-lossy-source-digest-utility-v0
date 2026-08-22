@@ -1,0 +1,19 @@
+{
+  "schema_version": "lossy-source-digest-utility-design-v0",
+  "study_id": "qwen38-lossy-source-digest-utility-v0",
+  "seed": 314159,
+  "historical_boundary_call": 12,
+  "source_first_call": 9,
+  "treatment": "append_one_frozen_lossy_source_bound_digest",
+  "historical_control_calls": 0,
+  "maximum_measured_actor_calls": 3,
+  "attempts": 1,
+  "retries": 0,
+  "context_tokens": 25088,
+  "response_reserve_tokens": 4096,
+  "reasoning": "off",
+  "primary_measure": "first_action_information_demand_class",
+  "historical_control_contemporaneous": false,
+  "selected_from_known_history": true
+}
+

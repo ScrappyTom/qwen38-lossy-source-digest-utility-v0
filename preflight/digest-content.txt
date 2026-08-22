@@ -1,0 +1,15 @@
+Key findings:
+- The actors exhausted all 32 calls per episode without reading exact atlas documents or submitting artifacts due to missing cumulative navigation state.
+- Structural map pages and search results were treated as transient frontiers, causing repetitive orientation loops instead of building a stable evidence map.
+
+Important qualifications:
+- This run does not test semantic selection, multi-hop descent, construction quality, or whether Q3 XL can stop acquiring after obtaining sufficient evidence.
+- The failure is attributed to the runtime's overcorrection on transcript accumulation rather than model refusal or inability to select relevant evidence.
+
+Relevant relationships:
+- Bounded prompt size alone did not create useful large-world continuity because the latest frontier lacked durable traversal history.
+- Mechanical navigation continuity must be preserved separately from semantic selection, which should remain with the model.
+
+Still unresolved:
+- Whether a corrected runtime retaining deduplicated navigation objects would enable Q3 XL to accept sufficient evidence and stop acquiring.
+- Whether semantic digests, action bases, or forced construction gates help in large-world research tasks remains untested.

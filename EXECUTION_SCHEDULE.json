@@ -1,0 +1,23 @@
+{
+  "schema_version": "lossy-source-digest-execution-schedule-v0",
+  "order": [
+    "verify_source_lock_and_authorization",
+    "verify_gpu_and_port_isolation",
+    "start_exact_parent_runtime",
+    "verify_runtime_and_live_first_packet",
+    "run_seed_314159_treatment_once",
+    "stop_runtime_and_release_gpu",
+    "replay_and_direct_audit"
+  ],
+  "cells": [
+    {
+      "cell": "seed-314159-lossy-digest",
+      "maximum_actor_calls": 3,
+      "attempts": 1,
+      "retries": 0
+    }
+  ],
+  "historical_control_model_calls": 0,
+  "maximum_total_model_calls": 3
+}
+

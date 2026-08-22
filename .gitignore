@@ -1,0 +1,6 @@
+.cache/
+.cache-import/
+.pytest_cache/
+__pycache__/
+*.pyc
+
